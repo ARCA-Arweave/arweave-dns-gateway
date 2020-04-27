@@ -15,9 +15,9 @@ app.use(evh.vhost(app.enabled("trust proxy")));
 // no cache everywhere
 app.use(nocache());
 
-// weaved.page subdomain API and Proxy.
-evh.register('api.weaved.page', subdomainApi);
-evh.register('*.weaved.page', subdomainProxy);
+// // weaved.page subdomain API and Proxy.
+// evh.register('api.weaved.page', subdomainApi);
+// evh.register('*.weaved.page', subdomainProxy);
 
 // ICANN DNS API and Proxy
 evh.register("api.blockbin.xyz", icannApi);
