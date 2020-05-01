@@ -20,7 +20,7 @@ app.use(nocache());
 // evh.register('*.weaved.page', subdomainProxy);
 
 // ICANN DNS API and Proxy
-evh.register("api.dns.perma.online", icannApi);
+evh.register("dns.perma.online", icannApi);
 app.all('*', icannProxy);
 
 export { app };
