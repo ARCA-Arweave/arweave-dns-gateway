@@ -19,7 +19,7 @@ Read code, make better, use a proper db, use nginx perhaps.
 ### Register a domain that will be served
 
 ```bash
-curl -X POST -H "Content-Type: text/plain" --data "mycooldomain.com" https://dns.perma.online/v0/add_domain
+curl -X POST -H "Content-Type: text/plain" --data "mycooldomain.com" https://api.dns.perma.online/v0/add_domain
 ```
 
 ### Setup DNS Records

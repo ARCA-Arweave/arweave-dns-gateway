@@ -11,7 +11,7 @@ greenlock
 .init({
     packageRoot: path.join(__dirname, '..' ),
     configDir: path.join(__dirname, '..', 'greenlock.d'),
-    maintainerEmail: "admin@blockbin.xyz",
+    maintainerEmail: "vilenarious@gmail.com",
     cluster: false,
     debug: true,
 })

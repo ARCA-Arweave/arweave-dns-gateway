@@ -5,7 +5,7 @@ import evh from "express-vhost";
 
 import { icannApi } from './icann/icann-api';
 import { icannProxy } from "./icann/icann-proxy";
-import { subdomainApi, subdomainProxy } from "./subdomain/subdomain";
+//import { subdomainApi, subdomainProxy } from "./subdomain/subdomain";
 
 const app = express();
 
@@ -20,7 +20,7 @@ app.use(nocache());
 // evh.register('*.weaved.page', subdomainProxy);
 
 // ICANN DNS API and Proxy
-evh.register("api.blockbin.xyz", icannApi);
+evh.register("api.dns.perma.online", icannApi);
 app.all('*', icannProxy);
 
 export { app };
