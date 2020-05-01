@@ -19,12 +19,12 @@ Read code, make better, use a proper db, use nginx perhaps.
 ### Register a domain that will be served
 
 ```bash
-curl -X POST -H "Content-Type: text/plain" --data "mycooldomain.com" https://api.blockbin.xyz/v0/add_domain
+curl -X POST -H "Content-Type: text/plain" --data "mycooldomain.com" https://dns.perma.online/v0/add_domain
 ```
 
 ### Setup DNS Records
 
-1. Set CNAME record for `mycooldomain.com` pointing to `gw.blockbin.xyz` or `api.blockbin.xyz`
+1. Set CNAME record for `mycooldomain.com` pointing to `gw.dns.perma.online` or `api.dns.perma.online`
 
 2. Set TXT record for `arweavetx.mycooldomain.com` to a TX ID
 
