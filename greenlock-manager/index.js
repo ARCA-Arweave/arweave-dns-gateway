@@ -3,10 +3,10 @@ let Site = require("./src/entity/Site")
 
 let Manager = module.exports;
 let connectionOptions = {
-    "type": "mongodb",
-    "host": "localhost",
-    "port": 27017,
-    "database": "arweave-dns-gateway",
+    "type": "sqlite",
+    // "host": "localhost",
+    // "port": 27017,
+    "database": "database.sqlite",
     "synchronize": true,
     "logging": false,
     "entities": [__dirname + "/src/entity/Site.js"],

@@ -1,9 +1,9 @@
 import "reflect-metadata"
-import {Entity, Column, ObjectID, ObjectIdColumn} from "typeorm";
+import {Entity, Column, ObjectID, ObjectIdColumn, PrimaryGeneratedColumn} from "typeorm";
 
 @Entity()
 export class Site {
-    @ObjectIdColumn()
+    @PrimaryGeneratedColumn()
     id: ObjectID;
 
     @Column()
