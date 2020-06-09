@@ -10,7 +10,7 @@ import { app } from './app';
 greenlock
 .init({
     packageRoot: path.join(__dirname, '..' ),
-    configDir: path.join(__dirname, '..', 'greenlock.d'),
+    configDir: path.join(__dirname, '..', 'greenlock-manager'),
     maintainerEmail: "vilenarious@gmail.com",
     cluster: false,
     debug: true,
