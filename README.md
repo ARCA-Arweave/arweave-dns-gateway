@@ -8,7 +8,7 @@ receive a cert with lets encrypt, and reverse proxies them to an Arweave gateway
 
 deploy somewhere, probably on the same machine as gateway.
 
-follow express-greenlock instructions to setup a config, edit some of the source for hardcoded things like blockbin.xyz 
+follow express-greenlock instructions to setup a config, edit some of the source for hardcoded domains
 
 Read code, make better, use a proper db, use nginx perhaps.
 
@@ -16,17 +16,19 @@ Read code, make better, use a proper db, use nginx perhaps.
 
 # User usage
 
+In this example replace `mycooldomain.com` with your own registered domain name.
+
+### Setup DNS Records with your own registrar
+
+1. Set CNAME record for `mycooldomain.com` pointing to `dns.perma.online`
+
+2. Set TXT record for `arweavetx.mycooldomain.com` to a TX ID
+
 ### Register a domain that will be served
 
 ```bash
 curl -X POST -H "Content-Type: text/plain" --data "mycooldomain.com" https://dns.perma.online/v0/add_domain
 ```
-
-### Setup DNS Records
-
-1. Set CNAME record for `mycooldomain.com` pointing to `dns.perma.online`
-
-2. Set TXT record for `arweavetx.mycooldomain.com` to a TX ID
 
 ### Go!
 
