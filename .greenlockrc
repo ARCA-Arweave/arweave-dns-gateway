@@ -1,1 +1,1 @@
-{"manager":{"module":"@greenlock/manager"},"configDir":"./greenlock.d"}
+{"manager":{"module":"./greenlock-manager"},"configDir":"/Users/benjamin.gogan/dev/arweave-dns-gateway/greenlock.d"}
