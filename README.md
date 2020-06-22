@@ -10,7 +10,7 @@ deploy somewhere, probably on the same machine as gateway.
 
 follow express-greenlock instructions to setup a config, edit some of the source for hardcoded domains
 
-Read code, make better, use a proper db, use nginx perhaps.
+Read code, make better, cleanup bad cache, use nginx perhaps.
 
 `npm run start`
 
