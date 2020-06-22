@@ -24,6 +24,8 @@ In this example replace `mydomain.com` with your own registered domain name.
 
 2. Set TXT record for `arweavetx.mydomain.com` to a TX ID
 
+** Please note that your DNS records may take some time to propogate across the DNS server network (sometimes 24 hours) **
+
 ### Use ARCA's server to register your domain to be served
 
 ```bash
@@ -32,6 +34,4 @@ curl -X POST -H "Content-Type: text/plain" --data "mydomain.com" https://dns.per
 
 ### Go!
 
-Navigate to `https://mydomain.com`, the first navigation may take some time as
-as an SSL cert is generated. The TX you set will be served under the 
-secure origin of `https://mydomain.com`
+Navigate to `https://mydomain.com`. The first navigation may take some time as as an SSL cert is generated. The TX you set will be served under the secure origin of `https://mydomain.com`
