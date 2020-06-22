@@ -24,7 +24,7 @@ In this example replace `mydomain.com` with your own registered domain name.
 
 2. Set TXT record for `arweavetx.mydomain.com` to a TX ID
 
-** Please note that your DNS records may take some time to propogate across the DNS server network (sometimes 24 hours) **
+**Please note that your DNS records may take some time to propogate across the DNS server network (sometimes 24 hours)**
 
 ### Use ARCA's server to register your domain to be served
 
