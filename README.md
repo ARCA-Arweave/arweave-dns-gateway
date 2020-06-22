@@ -16,22 +16,22 @@ Read code, make better, cleanup bad cache, use nginx perhaps.
 
 # User usage
 
-In this example replace `mycooldomain.com` with your own registered domain name.
+In this example replace `mydomain.com` with your own registered domain name.
 
 ### Setup DNS Records with your own registrar
 
-1. Set CNAME record for `mydapp.mydomain.com` pointing to `dns.perma.online`
+1. Set A record for `mydomain.com` pointing to `dns.perma.online`
 
-2. Set TXT record for `arweavetx.mydapp.mydomain.com` to a TX ID
+2. Set TXT record for `arweavetx.mydomain.com` to a TX ID
 
-### Register a domain that will be served
+### Use ARCA's server to register your domain to be served
 
 ```bash
-curl -X POST -H "Content-Type: text/plain" --data "mydapp.mydomain.com" https://dns.perma.online/v0/add_domain
+curl -X POST -H "Content-Type: text/plain" --data "mydomain.com" https://dns.perma.online/v0/add_domain
 ```
 
 ### Go!
 
-Navigate to `https://mycooldomain.com`, the first navigation may take some time as
-as an SSL cert is generated. The TX you set will be served under the
-secure origin of `https://mycooldomain.com`
+Navigate to `https://mydomain.com`, the first navigation may take some time as
+as an SSL cert is generated. The TX you set will be served under the 
+secure origin of `https://mydomain.com`
