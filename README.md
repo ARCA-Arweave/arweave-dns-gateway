@@ -20,14 +20,14 @@ In this example replace `mycooldomain.com` with your own registered domain name.
 
 ### Setup DNS Records with your own registrar
 
-1. Set CNAME record for `mycooldomain.com` pointing to `dns.perma.online`
+1. Set CNAME record for `mydapp.mydomain.com` pointing to `dns.perma.online`
 
-2. Set TXT record for `arweavetx.mycooldomain.com` to a TX ID
+2. Set TXT record for `arweavetx.mydapp.mydomain.com` to a TX ID
 
 ### Register a domain that will be served
 
 ```bash
-curl -X POST -H "Content-Type: text/plain" --data "mycooldomain.com" https://dns.perma.online/v0/add_domain
+curl -X POST -H "Content-Type: text/plain" --data "mydapp.mydomain.com" https://dns.perma.online/v0/add_domain
 ```
 
 ### Go!
