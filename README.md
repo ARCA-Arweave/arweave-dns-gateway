@@ -18,11 +18,19 @@ Read code, make better, cleanup bad cache, use nginx perhaps.
 
 In this example replace `mydomain.com` with your own registered domain name.
 
-### Setup DNS Records with your own registrar
+### Setup DNS Records with your own registrar (Choose 1 option)
 
-1. Set A record for `mydomain.com` pointing to `dns.perma.online`
+#### Option A. Set up root domain:
+
+1. Set A record for `mydomain.com` pointing to `52.191.214.142` (dns.perma.online)
 
 2. Set TXT record for `arweavetx.mydomain.com` to a TX ID
+
+#### Option B. Set up a subdomain
+
+1. Set CNAME record for `subdomain.mydomain.com` pointing to `dns.perma.online`
+
+2. Set TXT record for `arweavetx.subdomain.mydomain.com` to a TX ID
 
 **Please note that your DNS records may take some time to propogate across the DNS server network (sometimes 24 hours)**
 
