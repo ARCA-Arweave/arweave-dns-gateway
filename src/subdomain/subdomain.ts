@@ -1,5 +1,5 @@
 import express from "express";
-import multicodec from 'multicodec';
+// import multicodec from 'multicodec';
 import multibase from "multibase";
 import { getRedirectedUrl } from "../upstream/upstream";
 import httpProxy from "http-proxy";
@@ -47,7 +47,7 @@ subdomainProxy.all('*', async (req, res) => {
   
     const prefix = req.hostname.split('.')[0];
     const bytes = multibase.decode(prefix);
-    console.log(`Convered prefix to ${bytes.length} bytes`);
+    console.log(`Converted prefix to ${bytes.length} bytes`);
     if (bytes.length !== 32) {
       return res.status(400).send('Bad Request');
     }

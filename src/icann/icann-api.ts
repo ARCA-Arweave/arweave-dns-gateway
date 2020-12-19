@@ -14,7 +14,7 @@ function addDomainName(domain: string) {
     const cmd = spawn(`npx`, [`greenlock`, `add`, `--subject`, domain, `--altnames`, domain])
     cmd.on('close', (code) => {
       if (code == 0) {
-        res();
+        res(true);
       } else {
         rej(`Command failed with code: ${code}`);
       }
