@@ -1,3 +1,11 @@
+require('dotenv').config()
+import { Webhook } from 'discord-webhook-node'
+if(process.env.DISCORD_WEBHOOK_URL){
+    const hook = new Webhook(process.env.DISCORD_WEBHOOK_URL)
+    hook.setUsername('arca-dns')
+    process.env.DISCORD_AVATAR && hook.setAvatar(process.env.DISCORD_AVATAR)
+    hook.send('server started')
+}
 
 
 // @ts-ignore

@@ -1,3 +1,6 @@
 node_modules
 greenlock.d
 database.sqlite
+.env
+.greenlockrc
+greenlock-manager/src/entity/Site.js
