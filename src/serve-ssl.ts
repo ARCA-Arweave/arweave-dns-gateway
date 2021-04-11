@@ -21,7 +21,7 @@ greenlock
     configDir: path.join(__dirname, '..', 'greenlock-manager'),
     maintainerEmail: "vilenarious@gmail.com",
     cluster: false,
-    debug: true,
+    // debug: true,
 })
 // Serves on 80 and 443
 // Get's SSL certificates magically!

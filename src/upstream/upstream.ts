@@ -1,7 +1,7 @@
 
 import ax from 'axios';
 
-const GATEWAY_URL = `https://perma.online`;
+const GATEWAY_URL = `https://arweave.net`;
 
 /**
  * Returns the redirected location or a http error code.
