@@ -7,3 +7,4 @@ greenlock-manager/src/entity/Site.js
 greenlock-manager/live
 /debug.log
 /greenlock-manager/config.json
+greenlock-manager/accounts/acme-v02.api.letsencrypt.org/directory/vilenarious@gmail.com.json
