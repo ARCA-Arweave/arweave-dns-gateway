@@ -9,7 +9,7 @@ if(process.env.DISCORD_WEBHOOK_URL){
 
 
 // @ts-ignore
-import greenlock from "greenlock-express";
+import greenlock from "@root/greenlock-express";
 
 import * as path from "path";
 
