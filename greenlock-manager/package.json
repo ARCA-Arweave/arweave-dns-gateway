@@ -9,7 +9,7 @@
       "reflect-metadata": "^0.1.10",
       "sqlite3": "^4.2.0",
       "tsc": "^1.20150623.0",
-      "typeorm": "^0.2.24"
+      "typeorm": "^0.2.32"
    },
    "devDependencies": {
       "@types/node": "^8.10.59",
