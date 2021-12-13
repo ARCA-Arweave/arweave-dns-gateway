@@ -16,7 +16,7 @@
         "@types/lru-cache": "^5.1.0",
         "acme-dns-01-digitalocean": "^3.0.1",
         "acme-dns-01-namecheap": "^3.0.1",
-        "axios": "^0.21.1",
+        "axios": "^0.21.4",
         "bip39-codec": "^1.1.0",
         "cid": "^0.1.0",
         "discord-webhook-node": "^1.1.8",
