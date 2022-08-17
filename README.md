@@ -14,7 +14,9 @@ Read code, make better, cleanup bad cache, use nginx perhaps.
 
 `npm run start`
 
-# User usage
+# User usage 
+
+> N.B. dns.perma.online is currently offline. Get in touch if this is a problem.
 
 In this example replace `mydomain.com` with your own registered domain name.
 
