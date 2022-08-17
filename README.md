@@ -16,7 +16,8 @@ Read code, make better, cleanup bad cache, use nginx perhaps.
 
 # User usage 
 
-> N.B. dns.perma.online is currently offline. Get in touch if this is a problem.
+> **_N.B. 
+> dns.perma.online (52.191.214.142) is currently offline. Let's call this a scream test. Get in touch if this is a problem for you or your clients._**
 
 In this example replace `mydomain.com` with your own registered domain name.
 
